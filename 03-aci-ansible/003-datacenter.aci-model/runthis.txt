@@ -1,0 +1,3 @@
+# change credentials in: 'example-inventory.yaml' before running command below
+
+ansible-playbook -i example-inventory.yaml example-playbook.yaml --check

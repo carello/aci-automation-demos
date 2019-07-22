@@ -1,0 +1,5 @@
+---
+tenant: CC4
+vrf: vrf-CC4
+bd: bd-CC4
+ap: intranet

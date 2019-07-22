@@ -1,0 +1,22 @@
+- name: Setup
+  hosts:  localhost
+  connection: local
+  gather_facts: no
+  
+  vars:
+    validate_certs: false
+  
+  tasks:
+    - name: Query all tenants
+      aci_tenant:
+        # Enter HOST IP, username, private key, and cert name
+        host: ENTER-IP-ADDRESS
+        username: anman
+        private_key: admin.key
+        certificate_name: admin
+        validate_certs: '{{ validate_certs }}'
+        state: query
+      register: all_tenants
+
+    - debug:
+        var: all_tenants

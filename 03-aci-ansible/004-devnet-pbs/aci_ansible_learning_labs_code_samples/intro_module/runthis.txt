@@ -1,0 +1,5 @@
+# reference the inventory file  when running these playbooks
+# This example is using variables from directory group_vars/all
+# example: ansible-playbook -i inventory example-playbook.yaml 
+
+ansible-playbook -i inventory  002-aci-tenant-network-pb.yml

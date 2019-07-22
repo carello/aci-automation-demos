@@ -1,0 +1,8 @@
+[apic:vars]
+username=ENTER-USERNAME
+password=ENTER-PASSWORD
+ansible_python_interpreter="/Users/cpuskarz/.virtualenvs/p3_aci/bin/python"
+
+[apic]
+10.91.86.180
+
