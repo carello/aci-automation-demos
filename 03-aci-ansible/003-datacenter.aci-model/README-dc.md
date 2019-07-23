@@ -1,6 +1,6 @@
 ## Datacenter deployment "In-Depth". Created by WWT
 
-The scripts are designed to deploy and ACI fabric and hosts. It's very extensive and would be unique to a specific fabric. However, this can be run in --check mode to see teh output and all this is possible.
+The scripts are designed to deploy and ACI fabric and hosts. It's very extensive and would be unique to a specific fabric. However, this can be run in --check mode to see the output and all this is possible.
 
 ### To Use
 
