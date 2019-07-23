@@ -6,6 +6,7 @@ This is a repository to consolidate my ACI demos. This is a mash up of content I
 - Curling
 - Ansible
 - Postman
+- UCS Director (coming soon...)
 
 I recommend runing a vritualenv environment for these with Python 3. By design, I tried to keep the ansible configs local to the virtualenv. So you'll need to edit the ansible.cfg file to point to your interpeter. You'll find the ansible.cfg file within various folders.
 
