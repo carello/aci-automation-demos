@@ -1,7 +1,7 @@
 acicobra===4.1-2g
 acimodel===4.1-2g
 acitoolkit==0.4
-ansible==2.8.1
+ansible==4.2.0
 asn1crypto==0.24.0
 attrs==19.1.0
 bcrypt==3.1.7
